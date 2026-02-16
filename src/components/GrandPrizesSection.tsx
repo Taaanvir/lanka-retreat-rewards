@@ -2,40 +2,40 @@ import { Trophy, Plane, Hotel, UtensilsCrossed, Car, CreditCard } from "lucide-r
 
 const prizes = [
   {
-    rank: "1st",
-    title: "Full Package",
-    quantity: "1 Winner",
+    rank: "১ম",
+    title: "সম্পূর্ণ প্যাকেজ",
+    quantity: "১ জন বিজয়ী",
     features: [
-      { icon: CreditCard, text: "Visa Cost Covered" },
-      { icon: Plane, text: "Economy Class Flight" },
-      { icon: Hotel, text: "4-Star Accommodation" },
-      { icon: UtensilsCrossed, text: "Full Board F&B" },
-      { icon: Car, text: "Airport Transfers" },
+      { icon: CreditCard, text: "ভিসা খরচ কভার করা" },
+      { icon: Plane, text: "এক্সোনমি ক্লাস ফ্লাইট" },
+      { icon: Hotel, text: "৪-তারকা আবাসন" },
+      { icon: UtensilsCrossed, text: "সম্পূর্ণ বোর্ড খাবার ও পানীয়" },
+      { icon: Car, text: "বিমানবন্দর ট্রান্সফার" },
     ],
-    gradient: "from-gold via-gold-dark to-sunset",
-    highlight: true,
+    gradient: "from-gold/80 to-gold/50",
+    highlight: false,
   },
   {
-    rank: "2nd",
-    title: "Half Package",
-    quantity: "2 Winners",
+    rank: "২য়",
+    title: "অর্ধ প্যাকেজ",
+    quantity: "২ জন বিজয়ী",
     features: [
-      { icon: Plane, text: "Economy Class Flight" },
-      { icon: Hotel, text: "4-Star Accommodation" },
-      { icon: UtensilsCrossed, text: "Half Board F&B" },
-      { icon: Car, text: "Airport Transfers" },
+      { icon: Plane, text: "এক্সোনমি ক্লাস ফ্লাইট" },
+      { icon: Hotel, text: "৪-তারকা আবাসন" },
+      { icon: UtensilsCrossed, text: "আধা বোর্ড খাবার ও পানীয়" },
+      { icon: Car, text: "বিমানবন্দর ট্রান্সফার" },
     ],
     gradient: "from-muted-foreground/60 to-muted-foreground/40",
     highlight: false,
   },
   {
-    rank: "3rd",
-    title: "Partial Package",
-    quantity: "4 Winners",
+    rank: "৩য়",
+    title: "আংশিক প্যাকেজ",
+    quantity: "৪ জন বিজয়ী",
     features: [
-      { icon: Plane, text: "Economy Class Flight" },
-      { icon: Hotel, text: "4-Star Accommodation" },
-      { icon: Car, text: "Airport Transfers" },
+      { icon: Plane, text: "এক্সোনমি ক্লাস ফ্লাইট" },
+      { icon: Hotel, text: "৪-তারকা আবাসন" },
+      { icon: Car, text: "বিমানবন্দর ট্রান্সফার" },
     ],
     gradient: "from-sunset/80 to-sunset/50",
     highlight: false,
@@ -45,21 +45,18 @@ const prizes = [
 const GrandPrizesSection = () => {
   return (
     <section className="py-24 bg-gradient-sunset relative overflow-hidden">
-      {/* Decorative Elements */}
-      <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-emerald-dark/20 to-transparent" />
-      
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 bg-primary/10 rounded-full px-5 py-2 mb-6">
             <Trophy className="w-4 h-4 text-primary" />
-            <span className="text-primary font-semibold text-sm tracking-wide">GRAND PRIZES</span>
+            <span className="text-primary font-semibold text-sm tracking-wide">গ্র্যান্ড পুরস্কার</span>
           </div>
           <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-4">
-            3 Nights & 4 Days
+            ৩ রাত এবং ৪ দিন
           </h2>
           <p className="text-xl text-muted-foreground">
-            Luxurious Trip to Sri Lanka for <span className="text-primary font-semibold">Top 7</span> Referrals/Affiliates
+            শীর্ষ <span className="text-primary font-semibold">৭ জন</span> রেফারেল/অ্যাফিলিয়েটদের জন্য শ্রীলঙ্কার জন্য বিলাসবহুল ট্রিপ
           </p>
         </div>
 
@@ -77,7 +74,7 @@ const GrandPrizesSection = () => {
                 <div className={`${prize.highlight ? 'bg-card' : 'bg-card'} rounded-t-xl`}>
                   <div className={`bg-gradient-to-r ${prize.gradient} text-center py-4`}>
                     <span className="text-lg font-bold text-foreground drop-shadow-lg">
-                      {prize.rank} PLACE
+                      {prize.rank} স্থান
                     </span>
                   </div>
                 </div>

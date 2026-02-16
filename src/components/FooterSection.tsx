@@ -1,5 +1,5 @@
-import { Send, Facebook, ExternalLink } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { ExternalLink } from "lucide-react";
+import { SocialIcon } from "react-social-icons";
 
 const FooterSection = () => {
   return (
@@ -8,27 +8,19 @@ const FooterSection = () => {
         <div className="max-w-4xl mx-auto text-center">
           {/* Logo/Title */}
           <h3 className="font-serif text-3xl font-bold mb-2">
-            <span className="text-primary-foreground">LANKA</span>{" "}
-            <span className="text-gradient-gold">RETREAT</span>
+            <span className="text-primary-foreground">লঙ্কা</span>{" "}
+            <span className="text-gradient-gold">রিট্রিট</span>
           </h3>
           <p className="text-primary-foreground/60 mb-8">
-            Bhaggo Referral & Affiliate Campaign
+            ভাগ্য রেফারেল এবং অ্যাফিলিয়েট প্রচার
           </p>
           
-          {/* Social Links */}
+          {/* Social Links (logo-only square buttons) */}
           <div className="flex justify-center gap-4 mb-10">
-            <Button variant="outline" size="lg" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10" asChild>
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <Send className="w-5 h-5 mr-2" />
-                Telegram
-              </a>
-            </Button>
-            <Button variant="outline" size="lg" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10" asChild>
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <Facebook className="w-5 h-5 mr-2" />
-                Facebook
-              </a>
-            </Button>
+            <SocialIcon url="https://www.facebook.com/Bhaggoofficial" style={{ height: 40, width: 40 }} bgColor="rgba(255, 255, 255, 0)" fgColor="currentColor" />
+            <SocialIcon url="https://www.instagram.com/bhaggoofficial" style={{ height: 40, width: 40 }} bgColor="rgba(255, 255, 255, 0)" fgColor="currentColor" />
+            <SocialIcon url="https://www.tiktok.com/@bhaggoofficial" style={{ height: 40, width: 40 }} bgColor="rgba(255, 255, 255, 0)" fgColor="currentColor" />
+            <SocialIcon url="https://www.youtube.com/@BhaggoOfficial" style={{ height: 40, width: 40 }} bgColor="rgba(255, 255, 255, 0)" fgColor="currentColor" />
           </div>
           
           {/* Quick Links */}
@@ -39,7 +31,7 @@ const FooterSection = () => {
               rel="noopener noreferrer"
               className="text-primary-foreground/70 hover:text-gold transition-colors flex items-center gap-1"
             >
-              Referral Program <ExternalLink className="w-3 h-3" />
+              রেফারেল প্রোগ্রাম <ExternalLink className="w-3 h-3" />
             </a>
             <a 
               href="https://www.bhaggo.co/affiliate/news" 
@@ -47,7 +39,7 @@ const FooterSection = () => {
               rel="noopener noreferrer"
               className="text-primary-foreground/70 hover:text-gold transition-colors flex items-center gap-1"
             >
-              Affiliate Program <ExternalLink className="w-3 h-3" />
+              অ্যাফিলিয়েট প্রোগ্রাম <ExternalLink className="w-3 h-3" />
             </a>
             <a 
               href="https://bhaggopartners.com/leaderboard" 
@@ -55,7 +47,7 @@ const FooterSection = () => {
               rel="noopener noreferrer"
               className="text-primary-foreground/70 hover:text-gold transition-colors flex items-center gap-1"
             >
-              Leaderboard <ExternalLink className="w-3 h-3" />
+              লিডারবোর্ড <ExternalLink className="w-3 h-3" />
             </a>
           </div>
           
@@ -65,13 +57,10 @@ const FooterSection = () => {
           {/* Copyright & Disclaimer */}
           <div className="space-y-4 text-xs text-primary-foreground/50">
             <p>
-              Promo Period: 1st February 2026 to 30th April 2026
+              প্রচার সময়কাল: ১ ফেব থেকে ৩০ এপ্রিল ২০২৬
             </p>
             <p>
-              © 2026 Bhaggo. All rights reserved. This promotion is subject to terms and conditions.
-            </p>
-            <p>
-              Play responsibly. Gambling involves risk. Only participate if you are of legal age.
+              © ২০২৬ ভাগ্য। সর্বাধিকার সংরক্ষিত। এই প্রচার শর্তাবলী সাপেক্ষে।
             </p>
           </div>
         </div>

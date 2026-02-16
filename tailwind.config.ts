@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['Anek Bangla', 'sans-serif'],
         serif: ['Anek Bangla', 'sans-serif'],
       },
       colors: {

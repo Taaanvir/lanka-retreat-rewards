@@ -1,4 +1,5 @@
-import { Gift, Sparkles } from "lucide-react";
+import { Gift } from "lucide-react";
+import giftCardImage from "@/assets/gift-card.png";
 
 const MonthlyPrizesSection = () => {
   return (
@@ -15,40 +16,30 @@ const MonthlyPrizesSection = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-primary-foreground/20 backdrop-blur-sm rounded-full px-5 py-2 mb-8">
             <Gift className="w-4 h-4 text-gold" />
-            <span className="text-gold font-semibold text-sm tracking-wide">MONTHLY REWARDS</span>
+            <span className="text-gold font-semibold text-sm tracking-wide">মাসিক পুরস্কার</span>
           </div>
           
           <h2 className="font-serif text-3xl md:text-5xl font-bold text-primary-foreground mb-4">
-            Win Every Month!
+            প্রতি মাসে জিতুন!
           </h2>
           <p className="text-lg text-primary-foreground/80 mb-10">
-            Top 5 performing Referrals/Affiliates each month win exclusive gift cards
+            প্রতি মাসে শীর্ষ ৫ পারফরমিং রেফারেল/অ্যাফিলিয়েট এক্সক্লুসিভ গিফট কার্ড জিতুন
           </p>
           
           {/* Prize Card */}
           <div className="inline-block">
-            <div className="relative bg-card rounded-2xl p-8 md:p-12 shadow-elevated shimmer">
-              {/* Sparkle decorations */}
-              <Sparkles className="absolute top-4 right-4 w-6 h-6 text-gold float-animation" />
-              <Sparkles className="absolute bottom-4 left-4 w-5 h-5 text-gold float-animation" style={{ animationDelay: '1s' }} />
-              
+            <div className="relative bg-card rounded-2xl p-8 md:p-12 shadow-elevated">
               <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">
                 {/* Gift Card Visual */}
-                <div className="w-48 h-28 bg-gradient-gold rounded-xl flex items-center justify-center shadow-gold relative overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-br from-transparent via-card/10 to-transparent" />
-                  <div className="text-center z-10">
-                    <p className="text-foreground font-serif font-bold text-lg">AARONG</p>
-                    <p className="text-foreground/80 text-sm">Gift Card</p>
-                  </div>
-                </div>
+                <img src={giftCardImage} alt="Gift Card" className="w-64 h-auto" />
                 
                 {/* Prize Details */}
                 <div className="text-center md:text-left">
-                  <p className="text-5xl md:text-6xl font-serif font-bold text-gradient-gold mb-2">
-                    3,000 BDT
+                  <p className="text-4xl md:text-5xl leading-tight font-serif font-bold text-gradient-gold mb-2">
+                    ৩,০০০ টাকা
                   </p>
                   <p className="text-muted-foreground text-lg">
-                    for <span className="text-primary font-semibold">Top 5</span> Winners Each Month
+                    প্রতি মাসে শীর্ষ <span className="text-primary font-semibold">৫ জন</span> বিজয়ীর জন্য
                   </p>
                 </div>
               </div>
@@ -57,7 +48,7 @@ const MonthlyPrizesSection = () => {
           
           {/* Note */}
           <p className="text-primary-foreground/60 text-sm mt-8">
-            Winners announced by 15th of the following month
+            বিজয়ীরা পরের মাসের ১৫ তারিখের মধ্যে ঘোষণা করা হয়
           </p>
         </div>
       </div>

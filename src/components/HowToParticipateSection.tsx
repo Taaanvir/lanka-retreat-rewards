@@ -4,27 +4,27 @@ import { Button } from "@/components/ui/button";
 const steps = [
   {
     icon: UserPlus,
-    title: "Register",
-    description: "Sign up as a Bhaggo Referral or Affiliate through the official program links",
-    number: "01",
+    title: "নিবন্ধন করুন",
+    description: "অফিসিয়াল প্রোগ্রাম লিঙ্কের মাধ্যমে ভাগ্য রেফারেল বা অ্যাফিলিয়েট হিসেবে সাইন আপ করুন",
+    number: "১",
   },
   {
     icon: Link2,
-    title: "Share Your Link",
-    description: "Get your unique referral or affiliate link and share it with potential players",
-    number: "02",
+    title: "আপনার লিঙ্ক শেয়ার করুন",
+    description: "আপনার অনন্য রেফারেল বা অ্যাফিলিয়েট লিঙ্ক পান এবং সম্ভাব্য খেলোয়াড়দের সাথে শেয়ার করুন",
+    number: "২",
   },
   {
     icon: Users,
-    title: "Onboard Players",
-    description: "Minimum 10 qualified players to enter, 50+ for grand prize eligibility",
-    number: "03",
+    title: "খেলোয়াড় অনবোর্ড করুন",
+    description: "প্রবেশের জন্য সর্বনিম্ন ১০ জন যোগ্য খেলোয়াড়, গ্র্যান্ড পুরস্কার যোগ্যতার জন্য ৫০+ জন",
+    number: "৩",
   },
   {
     icon: CheckCircle,
-    title: "Qualify Them",
-    description: "Players must deposit 500 BDT minimum and play at least 1x their deposit",
-    number: "04",
+    title: "তাদের যোগ্য করুন",
+    description: "খেলোয়াড়দের অবশ্যই ৫০০ টাকা সর্বনিম্ন ডিপোজিট করতে হবে এবং অন্তত তাদের ডিপোজিটের ১x গেম খেলতে হবে",
+    number: "৪",
   },
 ];
 
@@ -42,13 +42,13 @@ const HowToParticipateSection = () => {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 bg-primary/10 rounded-full px-5 py-2 mb-6">
             <CheckCircle className="w-4 h-4 text-primary" />
-            <span className="text-primary font-semibold text-sm tracking-wide">HOW TO PARTICIPATE</span>
+            <span className="text-primary font-semibold text-sm tracking-wide">কীভাবে অংশগ্রহণ করবেন</span>
           </div>
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Join in 4 Simple Steps
+            ৪টি সহজ ধাপে যোগ দিন
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Start your journey to Sri Lanka with these easy steps
+            এই সহজ ধাপগুলির সাথে শ্রীলঙ্কার দিকে আপনার যাত্রা শুরু করুন
           </p>
         </div>
 
@@ -91,12 +91,12 @@ const HowToParticipateSection = () => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button variant="default" size="lg" asChild>
             <a href="https://www.bhaggo.co/referral/" target="_blank" rel="noopener noreferrer">
-              Join Referral Program
+              রেফারেল প্রোগ্রামে যোগ দিন
             </a>
           </Button>
           <Button variant="outline" size="lg" asChild>
             <a href="https://www.bhaggo.co/affiliate/news" target="_blank" rel="noopener noreferrer">
-              Become an Affiliate
+              একজন অ্যাফিলিয়েট হন
             </a>
           </Button>
         </div>
@@ -106,13 +106,13 @@ const HowToParticipateSection = () => {
           <div className="bg-gold/10 border border-gold/30 rounded-xl p-6">
             <h4 className="font-semibold text-foreground mb-4 flex items-center gap-2">
               <span className="w-2 h-2 bg-gold rounded-full" />
-              Important Requirements
+              গুরুত্বপূর্ণ প্রয়োজনীয়তা
             </h4>
             <ul className="space-y-2 text-sm text-foreground/80">
-              <li>• Affiliates/Referrals must have an active Bhaggo account with regular deposit history</li>
-              <li>• Minimum 10 qualified players to enter the competition</li>
-              <li>• Minimum 50 qualified players required for grand prize eligibility</li>
-              <li>• Players must deposit 500 BDT+ and play 1x their deposit to qualify</li>
+              <li>• অ্যাফিলিয়েট/রেফারেল অবশ্যই নিয়মিত ডিপোজিট ইতিহাস সহ সক্রিয় ভাগ্য অ্যাকাউন্ট রাখবেন</li>
+              <li>• প্রতিযোগিতায় প্রবেশের জন্য সর্বনিম্ন ১০ জন যোগ্য খেলোয়াড়</li>
+              <li>• গ্র্যান্ড পুরস্কারের যোগ্যতার জন্য কমপক্ষে ৫০ জন যোগ্য খেলোয়াড়</li>
+              <li>• খেলোয়াড়দের যোগ্য হওয়ার জন্য ৫০০ টাকা + ডিপোজিট করতে এবং তাদের ডিপোজিটের 1x গেম খেলতে হবে</li>
             </ul>
           </div>
         </div>

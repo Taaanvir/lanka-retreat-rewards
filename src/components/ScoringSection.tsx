@@ -10,13 +10,13 @@ const ScoringSection = () => {
           <div className="text-center mb-16">
             <div className="inline-flex items-center gap-2 bg-primary/10 rounded-full px-5 py-2 mb-6">
               <Calculator className="w-4 h-4 text-primary" />
-              <span className="text-primary font-semibold text-sm tracking-wide">SCORING SYSTEM</span>
+              <span className="text-primary font-semibold text-sm tracking-wide">স্কোরিং সিস্টেম</span>
             </div>
             <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-4">
-              How to Climb the Leaderboard
+              লিডারবোর্ড গাইড করতে কীভাবে
             </h2>
             <p className="text-lg text-muted-foreground">
-              Earn points based on your referred players' deposits
+              আপনার রেফার করা খেলোয়াড়দের ডিপোজিটের উপর ভিত্তি করে পয়েন্ট অর্জন করুন
             </p>
           </div>
 
@@ -26,9 +26,9 @@ const ScoringSection = () => {
               {/* Points Display */}
               <div className="text-center">
                 <div className="w-32 h-32 bg-gradient-gold rounded-full flex items-center justify-center shadow-gold mb-4 mx-auto">
-                  <span className="text-5xl font-serif font-bold text-foreground">1</span>
+                  <span className="text-5xl font-serif font-bold text-foreground">১</span>
                 </div>
-                <p className="text-xl font-semibold text-foreground">Point</p>
+                <p className="text-xl font-semibold text-foreground">পয়েন্ট</p>
               </div>
               
               {/* Equals */}
@@ -37,9 +37,9 @@ const ScoringSection = () => {
               {/* Amount */}
               <div className="text-center">
                 <div className="w-32 h-32 bg-primary rounded-full flex items-center justify-center mb-4 mx-auto">
-                  <span className="text-2xl font-serif font-bold text-primary-foreground">500 BDT</span>
+                  <span className="text-2xl font-serif font-bold text-primary-foreground">৫০০ টাকা</span>
                 </div>
-                <p className="text-xl font-semibold text-foreground">Deposit</p>
+                <p className="text-xl font-semibold text-foreground">ডিপোজিট</p>
               </div>
             </div>
             
@@ -47,7 +47,7 @@ const ScoringSection = () => {
               <div className="flex items-center justify-center gap-3 text-center">
                 <TrendingUp className="w-6 h-6 text-gold" />
                 <p className="text-lg text-foreground">
-                  Points are <span className="font-semibold text-primary">accumulated throughout</span> the entire campaign period
+                  পয়েন্ট <span className="font-semibold text-primary">সম্পূর্ণ প্রচার সময়কাল জুড়ে জমা হয়</span>
                 </p>
               </div>
             </div>
@@ -63,15 +63,15 @@ const ScoringSection = () => {
               <div className="inline-flex items-center gap-3 mb-4">
                 <BarChart3 className="w-8 h-8 text-gold" />
                 <h3 className="font-serif text-2xl md:text-3xl font-bold text-primary-foreground">
-                  Check Your Ranking
+                  আপনার র‍্যাঙ্কিং চেক করুন
                 </h3>
               </div>
               <p className="text-primary-foreground/80 mb-6">
-                Leaderboard updated daily at 2PM (GMT +6)
+                লিডারবোর্ড প্রতিদিন ২টা (জিএমটি +৬) তে আপডেট করা হয়
               </p>
               <Button variant="gold" size="lg" asChild>
                 <a href="https://bhaggopartners.com/leaderboard" target="_blank" rel="noopener noreferrer">
-                  View Leaderboard
+                  লিডারবোর্ড দেখুন
                 </a>
               </Button>
             </div>

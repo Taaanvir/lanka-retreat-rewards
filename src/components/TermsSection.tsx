@@ -8,68 +8,68 @@ import {
 
 const termsCategories = [
   {
-    title: "Eligibility & Participation",
+    title: "যোগ্যতা এবং অংশগ্রহণ",
     terms: [
-      "All affiliates must comply with Bhaggo Referral or Affiliate Program Terms & Conditions.",
-      "Affiliates and Referrals are required to maintain an active Bhaggo depositing account to be eligible for this promotion.",
-      "This tournament is limited to Referral or Affiliates who promote Bhaggo.",
-      "Referrer/Affiliates must not have a gaming account registered under their own Referral/Affiliate.",
-      "To enter the competition, all Referral or Affiliate must onboard at least 10 qualified players.",
-      "To enter the grand prize list, all Referral or Affiliate must confirm that minimum 50 qualified players onboard.",
+      "সমস্ত অ্যাফিলিয়েটদের ভাগ্য রেফারেল বা অ্যাফিলিয়েট প্রোগ্রামের শর্তাবলী মেনে চলতে হবে।",
+      "এই প্রচারের জন্য যোগ্য হওয়ার জন্য অ্যাফিলিয়েট এবং রেফারেলদের সক্রিয় ভাগ্য জমা অ্যাকাউন্ট বজায় রাখতে হবে।",
+      "এই টুর্নামেন্ট ভাগ্য প্রচারে থাকা রেফারেল বা অ্যাফিলিয়েটদের জন্য সীমাবদ্ধ।",
+      "রেফারার/অ্যাফিলিয়েটদের তাদের নিজস্ব রেফারেল/অ্যাফিলিয়েটের অধীন গেমিং অ্যাকাউন্ট নিবন্ধিত করতে পারবেন না।",
+      "প্রতিযোগিতায় প্রবেশের জন্য, সমস্ত রেফারেল বা অ্যাফিলিয়েটকে কমপক্ষে ১০ জন যোগ্য খেলোয়াড়কে অনবোর্ড করতে হবে।",
+      "গ্র্যান্ড পুরস্কার তালিকায় প্রবেশের জন্য, সমস্ত রেফারেল বা অ্যাফিলিয়েটকে নিশ্চিত করতে হবে যে কমপক্ষে ৫০ জন যোগ্য খেলোয়াড় অনবোর্ড করা হয়েছে।",
     ],
   },
   {
-    title: "Player Qualification",
+    title: "খেলোয়াড় যোগ্যতা",
     terms: [
-      "Invited players must meet minimum deposit of 500 BDT and turnover requirements at Bhaggo to be a qualified downline.",
-      "Referral or Affiliates are required to encourage invited players to deposit at least 500BDT and play any games and play at least 1 time of their deposit in order to qualify the member.",
-      "Qualified referees and referrals will be subject to validation.",
+      "আমন্ত্রিত খেলোয়াড়দের ভাগ্যতে যোগ্য ডাউনলাইন হওয়ার জন্য ৫০০ টাকার সর্বনিম্ন ডিপোজিট এবং টার্নওভার প্রয়োজনীয়তা পূরণ করতে হবে।",
+      "রেফারেল বা অ্যাফিলিয়েটদের আমন্ত্রিত খেলোয়াড়দের অন্তত ৫০০টাকা ডিপোজিট করতে এবং সদস্যকে যোগ্য করার জন্য তাদের ডিপোজিটের 1 সময় গেম খেলতে উৎসাহিত করতে হবে।",
+      "যোগ্য রেফারেস এবং রেফারেল যাচাইকরণের সাপেক্ষে হবেন।",
     ],
   },
   {
-    title: "Prizes & Rewards",
+    title: "পুরস্কার এবং পুরস্কৃতকরণ",
     terms: [
-      "Monthly gift card winners can only win once per month.",
-      "Monthly and Grand Prize winners may opt to convert their prize into cash. The monthly prize can be converted to 1,500 BDT.",
-      "Grand prize cash amount will be determined by Bhaggo based on flight and hotel costs for the chosen dates.",
-      "All rewards are non-transferable and subject to availability.",
-      "Winners must confirm acceptance of their prize within seven (7) days of notification or may forfeit the prize.",
+      "মাসিক গিফট কার্ড বিজয়ীরা মাসে একবার শুধুমাত্র জিততে পারেন।",
+      "মাসিক এবং গ্র্যান্ড পুরস্কার বিজয়ীরা তাদের পুরস্কার নগদে রূপান্তর করতে বেছে নিতে পারেন। মাসিক পুরস্কার ১,৫০০ টাকায় রূপান্তর করা যেতে পারে।",
+      "গ্র্যান্ড প্রাইজ নগদ পরিমাণ ভাগ্য দ্বারা নির্ধারিত হবে পছন্দের তারিখ অনুযায়ী ফ্লাইট এবং হোটেল খরচের ভিত্তিতে।",
+      "সমস্ত পুরস্কার অ-স্থানান্তরযোগ্য এবং প্রাপ্যতার সাপেক্ষে।",
+      "বিজয়ীদের অবশ্যই বিজ্ঞপ্তির ৭ (সাত) দিনের মধ্যে তাদের পুরস্কার গ্রহণ নিশ্চিত করতে হবে অন্যথায় পুরস্কার বাজেয়াপ্ত হতে পারে।",
     ],
   },
   {
-    title: "Rankings & Tiebreakers",
+    title: "র‍্যাঙ্কিং এবং টাইব্রেকার",
     terms: [
-      "If two or more Referral or Affiliate achieve the same number of players, the one with highest net revenue will be given priority.",
-      "In the event of a tie in leaderboard points, prize distribution will be determined based on the earliest achievement date.",
-      "The leaderboard rankings will be updated once daily at 2PM (GMT +6).",
+      "যদি দুই বা ততোধিক রেফারেল বা অ্যাফিলিয়েট একই সংখ্যক খেলোয়াড় অর্জন করেন, সর্বোচ্চ নেট রাজস্ব প্রাপ্তকারী অগ্রাধিকার দেওয়া হবে।",
+      "লিডারবোর্ড পয়েন্টে টাই হওয়ার ক্ষেত্রে, পুরস্কার বিতরণ প্রাথমিক অর্জন তারিখের ভিত্তিতে নির্ধারণ করা হবে।",
+      "লিডারবোর্ড র‍্যাঙ্কিং প্রতিদিন একবার ২টা (জিএমটি +৬) এ আপডেট করা হবে।",
     ],
   },
   {
-    title: "Winner Announcements",
+    title: "বিজয়ী ঘোষণা",
     terms: [
-      "Monthly prizes will be declared within 15th of next month.",
-      "Grand Prize winners will be notified around 15th May 2026 via Bhaggo official Telegram, Facebook and sales call through KYC.",
-      "Monthly winners will be notified by a sales KYC call on the 15th of the following month.",
+      "মাসিক পুরস্কার পরের মাসের ১৫ তারিখের মধ্যে ঘোষণা করা হবে।",
+      "গ্র্যান্ড প্রাইজ বিজয়ীদের २०२६ সালের ১৫ মে সালের কাছাকাছি ভাগ্য অফিসিয়াল টেলিগ্রাম, ফেসবুক এবং কেওয়াইসি মাধ্যমে বিক্রয় কল মাধ্যমে অবহিত করা হবে।",
+      "মাসিক বিজয়ীদের পরের মাসের ১৫ তারিখে একজন বিক্রয় কেওয়াইসি কল দ্বারা অবহিত করা হবে।",
     ],
   },
   {
-    title: "Fraud Prevention",
+    title: "জালিয়াতি প্রতিরোধ",
     terms: [
-      "Fraudulent or suspicious sign-ups will be disqualified.",
-      "If we detect that your friends created multiple accounts, logged into, or used on the same device, you will be disqualified.",
-      "Any form of abuse, fraud, or opposite betting shall result in disqualification.",
-      "Bhaggo reserves the right to disqualify any referee's entry if fraudulent or suspicious activity is detected.",
-      "Withdrawal of winnings is subject to review. Bhaggo reserves the right to suspend or block an account if fraud is detected.",
+      "জালিয়াতিমূলক বা সন্দেহজনক সাইন-আপগুলি অযোগ্য হবে।",
+      "যদি আমরা সনাক্ত করি যে আপনার বন্ধুরা একাধিক অ্যাকাউন্ট তৈরি করেছেন, লগ ইন করেছেন বা একই ডিভাইসে ব্যবহার করেছেন, আপনি অযোগ্য হবেন।",
+      "যেকোনো আকারের অপব্যবহার, জালিয়াতি বা বিপরীত বাজি ফলাফল অযোগ্যতায়।",
+      "যদি জালিয়াতিমূলক বা সন্দেহজনক কার্যকলাপ সনাক্ত করা হয় তবে ভাগ্য যেকোনো রেফারির প্রবেশ অযোগ্য করার অধিকার সংরক্ষণ করে।",
+      "জেতার প্রত্যাহার পর্যালোচনার সাপেক্ষে। ভাগ্য জালিয়াতি সনাক্ত হলে অ্যাকাউন্ট স্থগিত বা ব্লক করার অধিকার সংরক্ষণ করে।",
     ],
   },
   {
-    title: "General Terms",
+    title: "সাধারণ শর্তাবলী",
     terms: [
-      "Bhaggo reserves the right to modify or terminate the tournament at any time without prior notice.",
-      "Bhaggo reserves the right to withdraw the availability of any offer to any member at its sole discretion.",
-      "Bhaggo reserves the right to review members' activity and disqualify any member deemed inconsistent with promotion's intent.",
-      "Change of account information is not allowed after using this bonus; winnings may be removed if changed.",
-      "These T&Cs are subject to General Terms & Conditions of the website.",
+      "ভাগ্য যেকোনো সময় কোনও পূর্ব নোটিশ ছাড়াই টুর্নামেন্ট পরিবর্তন বা শেষ করার অধিকার সংরক্ষণ করে।",
+      "ভাগ্য তার একক বিবেচনায় নিজের ইচ্ছায় যেকোনো সদস্যের জন্য কোনও অফার প্রাপ্যতা প্রত্যাহার করার অধিকার সংরক্ষণ করে।",
+      "ভাগ্য সদস্যদের কার্যকলাপ পর্যালোচনা করার এবং প্রচারের অভিপ্রায়ের সাথে অসঙ্গতিপূর্ণ বলে বিবেচিত সদস্নদের অযোগ্য করার অধিকার সংরক্ষণ করে।",
+      "এই বোনাসটি ব্যবহারের পরে অ্যাকাউন্ট তথ্যের পরিবর্তন অনুমতিযুক্ত নয়; যদি পরিবর্তিত হয় তবে জেতা অপসারণ করা যেতে পারে।",
+      "এই T&Cs ওয়েবসাইটের সাধারণ শর্তাবলী অনুসারে।",
     ],
   },
 ];
@@ -83,13 +83,13 @@ const TermsSection = () => {
           <div className="text-center mb-12">
             <div className="inline-flex items-center gap-2 bg-primary/10 rounded-full px-5 py-2 mb-6">
               <FileText className="w-4 h-4 text-primary" />
-              <span className="text-primary font-semibold text-sm tracking-wide">TERMS & CONDITIONS</span>
+              <span className="text-primary font-semibold text-sm tracking-wide">শর্তাবলী</span>
             </div>
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Campaign Rules
+              প্রচার নিয়ম
             </h2>
             <p className="text-muted-foreground">
-              Please read all terms carefully before participating
+              অংশগ্রহণের আগে সমস্ত শর্তাবলী সাবধানে পড়ুন
             </p>
           </div>
 
