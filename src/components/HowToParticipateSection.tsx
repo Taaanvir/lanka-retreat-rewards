@@ -71,8 +71,8 @@ const HowToParticipateSection = () => {
                 </div>
                 
                 {/* Icon */}
-                <div className="w-24 h-24 bg-primary/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
-                  <step.icon className="w-12 h-12 text-primary" />
+                <div className="w-32 h-32 bg-primary/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
+                  <step.icon className="w-16 h-16 text-primary" />
                 </div>
                 
                 {/* Content */}
