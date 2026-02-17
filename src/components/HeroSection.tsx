@@ -33,7 +33,7 @@ const HeroSection = () => {
           <div className="flex-1">
             {/* Logo */}
             <div className="mb-8 animate-fade-in-up flex justify-center">
-              <img src={bhaggoLogo} alt="Bhaggo" className="h-8" />
+              <img src={bhaggoLogo} alt="Bhaggo" className="h-14" />
             </div>
             
             {/* Badge */}
