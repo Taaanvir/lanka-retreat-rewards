@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Trophy, Calendar, Users } from "lucide-react";
 import heroImage from "@/assets/hero-sri-lanka.jpg";
 import heroImagePhone from "@/assets/hero-sri-lanka-phone.jpg";
-import bhaggoLogo from "@/assets/logo_bhaggo_white.svg";
+import bhaggoLogo from "@/assets/logo_bhaggo_white.png";
 
 const HeroSection = () => {
   return (
