@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Anek Bangla', 'sans-serif'],
-        serif: ['Anek Bangla', 'sans-serif'],
+        sans: ['Anek Bangla', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'sans-serif'],
+        serif: ['Anek Bangla', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
