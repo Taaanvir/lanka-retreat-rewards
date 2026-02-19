@@ -89,12 +89,12 @@ const HeroSection = () => {
             {/* CTA Buttons */}
             <div id="hero-cta-buttons" className="flex flex-col sm:flex-row gap-4 animate-fade-in-up justify-center" style={{ animationDelay: '0.5s' }}>
               <Button variant="gold" size="xl" asChild>
-                <a href="https://www.bhaggo.co/referral/" target="_blank" rel="noopener noreferrer">
+                <a href="https://10panda.gotrackier.com/click?campaign_id=2&pub_id=83&url_id=120&source=tg1" target="_blank" rel="noopener noreferrer">
                   রেফারেল প্রোগ্রামে যোগ দিন
                 </a>
               </Button>
               <Button variant="heroOutline" size="xl" asChild>
-                <a href="https://www.bhaggo.co/affiliate/news" target="_blank" rel="noopener noreferrer">
+                <a href="https://10panda.gotrackier.com/click?campaign_id=2&pub_id=83&url_id=120&source=tg1" target="_blank" rel="noopener noreferrer">
                   অ্যাফিলিয়েট প্রোগ্রামে যোগ দিন
                 </a>
               </Button>
